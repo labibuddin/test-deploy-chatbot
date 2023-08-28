@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "salam pembuka",
+      "patterns": [
+        "Hai 0293809348 ?./; -=--   78",
+        "Hai @lf!n kabarnyea",
+        "Apa kabar",
+        "Apakah ada orang di sana?",
+        "Halo",
+        "Selamat tinggal"
+      ],
+      "responses": [
+        "Hai :-)",
+        "Halo, terima kasih telah berkunjung",
+        "Halo, apa yang bisa saya lakukan untuk Anda?",
+        "Halo, ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "selamat tinggal",
+      "patterns": [
+        "Bye",
+        "Sampai jumpa",
+        "Sampai jumpa lagi",
+        "Selamat tinggal"
+      ],
+      "responses": [
+        "Sampai jumpa lagi, terima kasih sudah berkunjung",
+        "Semoga harimu menyenangkan",
+        "Bye! Segera kembali lagi."
+      ]
+    },
+    {
+      "tag": "terima kasih",
+      "patterns": [
+        "Terima kasih",
+        "Terima kasih",
+        "Itu sangat membantu",
+        "Terima kasih banyak!"
+      ],
+      "responses": ["Senang membantu!", "Kapan saja!", "Dengan senang hati"]
+    },
+    {
+      "tag": "item",
+      "patterns": [
+        "Barang apa yang kamu miliki?",
+        "Barang apa saja yang ada di sana?",
+        "Apa yang kamu jual?"
+      ],
+      "responses": ["Kami menjual kopi dan teh", "Kami memiliki kopi dan teh"]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Apakah kamu mengambil kartu kredit?",
+        "Apakah Anda menerima Mastercard?",
+        "Bisakah saya membayar dengan Paypal?",
+        "Apakah Anda hanya uang tunai?"
+      ],
+      "responses": [
+        "Kami menerima VISA, Mastercard dan Paypal",
+        "Kami menerima sebagian besar kartu kredit utama, dan Paypal"
+      ]
+    },
+    {
+      "tag": "pengiriman",
+      "patterns": [
+        "Pengiriman berapa lama?",
+        "Pengiriman berapa lama?",
+        "Kapan saya mendapatkan paket saya?"
+      ],
+      "responses": [
+        "Pengiriman memakan waktu 2-4 hari",
+        "Pengiriman memakan waktu 2-4 hari"
+      ]
+    },
+    {
+      "tag": "identitas",
+      "patterns": [
+        "Siapa namamu?",
+        "siapa kamu",
+        "Siapa anda",
+        "Dari mana asalmu?",
+        "Siapa pasanganmu?",
+        "siapa istrimu?",
+        "Apa yang sedang kamu pelajari?"
+      ],
+      "responses": [
+        "Nama saya Alfin. Saya berasal dari Klaten. Saya suami dari Umi Kulsum. Saya sedang menempuh studi di Universitas Negeri Yogyakarta dengan program studi Teknologi Informasi."
+      ]
+    },
+    {
+      "tag": "lucu",
+      "patterns": [
+        "Ceritakan lelucon!",
+        "Ceritakan sesuatu yang lucu!",
+        "Apakah kamu tahu lelucon?"
+      ],
+      "responses": [
+        "Mengapa hipster membakar mulutnya? Dia minum kopi sebelum dingin.",
+        "Apa yang dikatakan kerbau ketika putranya berangkat kuliah? Bison."
+      ]
+    },
+    {
+      "tag": "masjidmj_history",
+      "patterns": [
+        "Bagaimana sejarah masjid jogokariyan yogyakarta",
+        "Sejarah masjid jogokariyan"
+      ],
+      "responses": [
+        "Berawal dari sebuah langgar kecil di Kampung Pinggiran Selatan Yogyakarta, Masjid Jogokariyan terus berusaha membangun Ummat dan Mensejahterakan Masyarakat.  Logo Masjid Jogokariyan terdiri dari tiga bahasa. Arab, Indonesia, dan Jawa. Ini adalah wujud dari semangat kami, untuk menjadi Muslim yang salih seutuhnya tanpa kehilangan akar budaya."
+      ]
+    },
+    {
+      "tag": "pengelolaan_masjid",
+      "patterns": [
+        "Bagaimana cara mengelola masjid?",
+        "Apa yang perlu dilakukan untuk mengelola masjid dengan baik?",
+        "Bagaimana manajemen masjid?",
+        "Apa saja yang harus diperhatikan dalam mengelola masjid?",
+        "Apa yang dilakukan oleh pengelola masjid Jogokariyan?"
+      ],
+      "responses": [
+        "Pengelolaan masjid Jogokariyan melibatkan beberapa hal, seperti pemeliharaan fasilitas, pengelolaan keuangan, dan penyelenggaraan acara. Semua hal tersebut dilakukan dengan bantuan tim yang berdedikasi dan kerjasama yang baik dengan masyarakat sekitar.",
+        "Penting untuk memastikan bahwa semua kegiatan di masjid berjalan lancar dan sesuai dengan tata cara yang benar. Ini melibatkan perencanaan yang matang dan komunikasi yang efektif dengan masyarakat sekitar.",
+        "Pengelolaan masjid Jogokariyan juga memastikan bahwa fasilitas masjid tetap dalam kondisi baik dan siap digunakan oleh jamaah. Ini termasuk memastikan bahwa area masjid bersih dan nyaman."
+      ]
+    },
+    {
+      "tag": "input_tamu",
+      "patterns": [
+        "Saya ingin reservasi tamu studi banding",
+        "saya ingin studi banding di masjid jogokariyan",
+        "Bisakah saya melakukan reservasi tamu studi banding?",
+        "Reservasi tamu studi banding"
+      ],
+      "responses": [
+        "Baik, siapa nama Anda?",
+        "Silakan masukkan nama Anda.",
+        "Tolong berikan nama Anda."
+      ]
+    },
+    {
+      "tag": "show_data_tamu",
+      "patterns": [
+        "lihat data tamu studi banding",
+        "lihat data tamu",
+        "tampilkan data tamu"
+      ],
+      "responses": [
+        "Baik, berikut data jadwal studi banding:",
+        "Berikut adalah data tamu yang telah terdaftar:",
+        "Berikut adalah jadwal tamu studi banding yang sudah ada:"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "halo",
+        "hai",
+        "selamat pagi",
+        "selamat siang",
+        "selamat malam",
+        "hi"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai, ada yang bisa saya bantu?",
+        "Selamat datang! Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "sampai jumpa",
+        "goodbye",
+        "wassalamualaikum",
+        "bye",
+        "terima kasih"
+      ],
+      "responses": [
+        "walaikumsalam, sampai jumpa",
+        "Sampai jumpa! Jika ada yang perlu ditanyakan, silakan kembali.",
+        "Terima kasih! Sampai jumpa lagi.",
+        "Selamat tinggal. Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "hapus_data_tamu",
+      "patterns": [
+        "hapus_data_tamu",
+        "hapus data tamu",
+        "hapuskan data tamu",
+        "menghapus data tamu"
+      ],
+      "responses": [
+        "Baik, data tamu mana yang akan Anda hapus?",
+        "Mohon beri tahu kami data tamu yang ingin Anda hapus.",
+        "Silakan sebutkan data tamu yang akan dihapus."
+      ]
+    }
+  ]
+}
